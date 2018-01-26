@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    font-family:"arial", "sans-serif";
+}
+div{
+overflow: hidden;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 50px;
+    border-right: 0px solid white;
+}
+nav {
+
+    background-color: black;
+    padding: 5px;
+    overflow: hidden;
+}
+header {
+    background-color: white;
+    text-align:center;
+}
+article{
+    float:left;
+    width: 450px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+section {
+    padding: 20px;
+}
+@media all and (min-width: 550px){
+
+
+}
